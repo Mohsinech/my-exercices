@@ -38,7 +38,7 @@ function App() {
         {users.map((user, i) => (
           <ProfileCard key={i} {...user} />
         ))}
-        <Button label="my cv" />
+        <Button label="my resume" />
       </section>
 
       <Actions />
